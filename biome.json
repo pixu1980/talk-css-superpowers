@@ -1,5 +1,16 @@
 {
-	"files": {
-		"includes": ["src/**", "README.md", "package.json", ".github/**"]
-	}
+  "$schema": "https://biomejs.dev/schemas/2.6.6/schema.json",
+  "files": {
+    "includes": [
+      "src/**",
+      "README.md",
+      "package.json",
+      ".github/**"
+    ]
+  },
+  "formatter": {
+    "enabled": true,
+    "indentStyle": "space",
+    "indentWidth": 2
+  }
 }

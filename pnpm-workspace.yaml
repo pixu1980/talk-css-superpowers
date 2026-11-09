@@ -1,9 +1,9 @@
 packages:
-  - '../talks-libraries/packages/*'
+  - "../talks-libraries/packages/*"
 
-onlyBuiltDependencies:
-  - '@parcel/watcher'
-  - '@swc/core'
-  - lmdb
-  - msgpackr-extract
-  - sharp
+allowBuilds:
+  "@parcel/watcher": true
+  "@swc/core": true
+  lmdb: true
+  msgpackr-extract: true
+  sharp: true

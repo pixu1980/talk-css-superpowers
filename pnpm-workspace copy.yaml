@@ -1,9 +1,0 @@
-packages:
-  - '../talks-libraries/packages/*'
-
-onlyBuiltDependencies:
-  - '@parcel/watcher'
-  - '@swc/core'
-  - lmdb
-  - msgpackr-extract
-  - sharp
